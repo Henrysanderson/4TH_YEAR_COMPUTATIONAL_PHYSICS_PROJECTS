@@ -1,0 +1,53 @@
+# Ignore the virtual environment
+venv/
+.env/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Ignore log files and databases
+*.log
+*.sqlite3
+
+# Ignore environment configuration files
+.env
+*.env
+
+# Ignore package management files
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Ignore compiled C files
+*.so
+
+# Ignore large data files (optional)
+*.csv
+*.tsv
+*.json
+*.h5
+*.parquet
+*.pkl
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+.cache
+
+# Ignore test and debug files
+nose2-report.xml
+coverage.xml
+
+# Ignore macOS and Linux system files
+.DS_Store
+*.swp
